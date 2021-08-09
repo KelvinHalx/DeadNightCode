@@ -1,6 +1,267 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>Home</h1>
+    <!-- Bnner Section -->
+    <section class="banner-section-three">
+        <div class="banner-carousel-two owl-carousel owl-theme">
+            <!-- Slide Item -->
+            <div class="slide-item" style="background-image: url(images/main-slider/image-3.jpg);">
+                <div class="auto-container">
+                    <div class="content-box clearfix">
+                        <div class="inner-box">
+                            <h4 class="title">Architecture</h4>
+                            <h2>Westfiled London</h2>
+                            <div class="text">My Modern House: Dominic and Rebecca Gaunt on designing building and living in their contemporary family home.</div>
+                            <div class="link-box"><a href="about.html">View Details</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide Item -->
+            <div class="slide-item" style="background-image: url(images/main-slider/image-4.jpg);">
+                <div class="auto-container">
+                    <div class="content-box clearfix">
+                        <div class="inner-box">
+                            <h4 class="title">Architecture</h4>
+                            <h2>Westfiled London</h2>
+                            <div class="text">My Modern House: Dominic and Rebecca Gaunt on designing building and living in their contemporary family home.</div>
+                            <div class="link-box"><a href="about.html">View Details</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide Item -->
+            <div class="slide-item" style="background-image: url(images/main-slider/image-1.jpg);">
+                <div class="auto-container">
+                    <div class="content-box clearfix">
+                        <div class="inner-box">
+                            <h4 class="title">Architecture</h4>
+                            <h2>Westfiled London</h2>
+                            <div class="text">My Modern House: Dominic and Rebecca Gaunt on designing building and living in their contemporary family home.</div>
+                            <div class="link-box"><a href="about.html">View Details</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-box">
+            <div class="auto-container">
+                <div class="outer-box clearfix">
+                    <ul class="social-links clearfix">
+                        <li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
+                        <li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
+                        <li><a href="#"><span class="fa fa-google-plus"></span> Gmail</a></li>
+                        <li><a href="#"><span class="fa fa-instagram"></span> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Bnner Section -->
+
+    <!-- Specialize Section -->
+    <section class="specialize-section-two">
+        <div class="auto-container">
+            <div class="row">
+                <!-- Title Column -->
+                <div class="title-column col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <span class="float-text">Services</span>
+                            <h2>Our Specialization</h2>
+                        </div>
+
+                        <div class="text-box">
+                            <h4>Architectural Design</h4>
+                            <p>Quality over quantity, so the saying goes. With so many concepts floating around the architectural profession, it can be difficult to keep up with all the ideas which you’re expected to know.</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.It has survived not only five centuries. When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="link-box">
+                            <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Carousel Column -->
+                <div class="carousel-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <div class="carousel-outer">
+                            <ul class="image-carousel owl-carousel owl-theme">
+                                
+                                <li><a href="images/resource/special-4.jpg" class="lightbox-image" title="Image Caption Here"><img src="{{url_for('static',filename='images/resource/special-4.jpg')}}" alt=""></a></li>
+
+                                <li><a href="images/resource/special-2.jpg" class="lightbox-image" title="Image Caption Here"><img src="{{url_for('static',filename='images/resource/special-2.jpg')}}" alt=""></a></li>
+
+                                <li><a href="images/resource/special-3.jpg" class="lightbox-image" title="Image Caption Here"><img src="{{url_for('static',filename='images/resource/special-3.jpg')}}" alt=""></a></li>
+
+                                <li><a href="images/resource/special-1.jpg" class="lightbox-image" title="Image Caption Here"><img src="{{url_for('static',filename='images/resource/special-1.jpg')}}" alt=""></a></li>
+
+                                <li><a href="images/resource/special-4.jpg" class="lightbox-image" title="Image Caption Here"><img src="{{url_for('static',filename='images/resource/special-4.jpg')}}" alt=""></a></li>
+
+                                <li><a href="images/resource/special-2.jpg" class="lightbox-image" title="Image Caption Here"><img src="{{url_for('static',filename='images/resource/special-2.jpg')}}" alt=""></a></li>
+
+                                <li><a href="images/resource/special-3.jpg" class="lightbox-image" title="Image Caption Here"><img src="{{url_for('static',filename='images/resource/special-3.jpg')}}" alt=""></a></li>
+
+                                <li><a href="images/resource/special-1.jpg" class="lightbox-image" title="Image Caption Here"><img src="{{url_for('static',filename='images/resource/special-1.jpg')}}" alt=""></a></li>
+
+                            </ul>
+                            
+                            <ul class="thumbs-carousel owl-carousel owl-theme">
+                                <li class="thumb-box">
+                                    <figure><img src="images/resource/special-thumb-3.jpg" alt=""></figure>
+                                    <div class="overlay"><span class="icon fa fa-arrows-alt"></span></div>
+                                </li>
+                                <li class="thumb-box">
+                                    <figure><img src="images/resource/special-thumb-1.jpg" alt=""></figure>
+                                    <div class="overlay"><span class="icon fa fa-arrows-alt"></span></div>
+                                </li>
+                                <li class="thumb-box">
+                                    <figure><img src="images/resource/special-thumb-2.jpg" alt=""></figure>
+                                    <div class="overlay"><span class="icon fa fa-arrows-alt"></span></div>
+                                </li>
+                                <li class="thumb-box">
+                                    <figure><img src="images/resource/special-thumb-4.jpg" alt=""></figure>
+                                    <div class="overlay"><span class="icon fa fa-search"></span></div>
+                                </li>
+                                <li class="thumb-box">
+                                    <figure><img src="images/resource/special-thumb-3.jpg" alt=""></figure>
+                                    <div class="overlay"><span class="icon fa fa-arrows-alt"></span></div>
+                                </li>
+                                <li class="thumb-box">
+                                    <figure><img src="images/resource/special-thumb-1.jpg" alt=""></figure>
+                                    <div class="overlay"><span class="icon fa fa-arrows-alt"></span></div>
+                                </li>
+                                <li class="thumb-box">
+                                    <figure><img src="images/resource/special-thumb-2.jpg" alt=""></figure>
+                                    <div class="overlay"><span class="icon fa fa-arrows-alt"></span></div>
+                                </li>
+                                <li class="thumb-box">
+                                    <figure><img src="images/resource/special-thumb-4.jpg" alt=""></figure>
+                                    <div class="overlay"><span class="icon fa fa-arrows-alt"></span></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Specialize Section -->
+
+    <!-- Process Section -->
+    <section class="process-section knighthead" style="background-image:url({{url_for('static',filename='images/background/8.jpg')}});>
+        <div class="auto-container">
+            <div class="sec-title light">
+                <span class="float-text">HOW WE WORK</span>
+                <h2>Proven Process</h2>
+            </div>
+            <div class="row">
+                <!-- Process Block -->
+                <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <span class="count">01</span>
+                        <h4><a href="service-detail.html">Concept</a></h4>
+                        <div class="text">When an unknown printer took a galley of type and scrambled it to make a book.</div>
+                        <div class="link-box"><a href="service-detail.html">Read More</a></div>
+                    </div>
+                </div>
+
+                <!-- Process Block -->
+                <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <span class="count">02</span>
+                        <h4><a href="service-detail.html">Idea</a></h4>
+                        <div class="text">When an unknown printer took a galley of type and scrambled it to make a book.</div>
+                        <div class="link-box"><a href="service-detail.html">Read More</a></div>
+                    </div>
+                </div>
+
+                <!-- Process Block -->
+                <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <span class="count">03</span>
+                        <h4><a href="service-detail.html">Design</a></h4>
+                        <div class="text">When an unknown printer took a galley of type and scrambled it to make a book.</div>
+                        <div class="link-box"><a href="service-detail.html">Read More</a></div>
+                    </div>
+                </div>
+
+                <!-- Process Block -->
+                <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <span class="count">04</span>
+                        <h4><a href="service-detail.html">excecution</a></h4>
+                        <div class="text">When an unknown printer took a galley of type and scrambled it to make a book.</div>
+                        <div class="link-box"><a href="service-detail.html">Read More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Process Section -->
+
+    <!-- Testimonial Section Two-->
+    <section class="testimonial-section-two">
+        <div class="auto-container">
+            <div class="sec-title">
+                <span class="float-text">Testimonial</span>
+                <h2>What Clients Says</h2>
+            </div>
+
+            <div class="testimonial-carousel-two owl-carousel owl-theme">
+                <!-- Testimonial block two -->
+                <div class="testimonial-block-two">
+                    <div class="inner-box">
+                        <div class="text">I got an excellent design for my future home, from cooperation i was very pleased, everything was done at the highest level.Boldly I recommend to all this company.</div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="images/resource/thumb-2.jpg" alt=""></div>
+                            <h5 class="name">Elena Gomes</h5>
+                            <span class="date">July 28 - 2018</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial block two -->
+                <div class="testimonial-block-two">
+                    <div class="inner-box">
+                        <div class="text">I got an excellent design for my future home, from cooperation i was very pleased, everything was done at the highest level.Boldly I recommend to all this company.</div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="images/resource/thumb-3.jpg" alt=""></div>
+                            <h5 class="name">Aliza Norka</h5>
+                            <span class="date">July 28 - 2018</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial block two -->
+                <div class="testimonial-block-two">
+                    <div class="inner-box">
+                        <div class="text">I got an excellent design for my future home, from cooperation i was very pleased, everything was done at the highest level.Boldly I recommend to all this company.</div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="images/resource/thumb-2.jpg" alt=""></div>
+                            <h5 class="name">Elena Gomes</h5>
+                            <span class="date">July 28 - 2018</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial block two -->
+                <div class="testimonial-block-two">
+                    <div class="inner-box">
+                        <div class="text">I got an excellent design for my future home, from cooperation i was very pleased, everything was done at the highest level.Boldly I recommend to all this company.</div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="images/resource/thumb-3.jpg" alt=""></div>
+                            <h5 class="name">Aliza Norka</h5>
+                            <span class="date">July 28 - 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Testimonial Section Two-->
 
 {% endblock content %}
-
