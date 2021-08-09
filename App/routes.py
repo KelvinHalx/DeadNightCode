@@ -7,7 +7,3 @@ from App import app
 def index():
     return render_template('index.html')
 
-@app.route('/base/')
-def base():
-    return render_template('base.html')
-
