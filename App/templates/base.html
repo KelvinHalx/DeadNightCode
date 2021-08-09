@@ -4,7 +4,13 @@
 <!-- index-326:55-->
 <head>
 <meta charset="utf-8">
-<title>Knight of Code | Home </title>
+    
+{% if title %}
+ <title> Knight Of Code | - {{ title }}</title>
+ {% else %}
+ <title> Knight Of Code </title>
+ {% endif %}
+    
 <!-- Stylesheets -->
 <link href="{{url_for('static',filename='css/bootstrap.css')}}" rel="stylesheet">
 <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
