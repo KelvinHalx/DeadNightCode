@@ -1,0 +1,4 @@
+# Add Ignored files
+/venv
+
+/__pycache__
